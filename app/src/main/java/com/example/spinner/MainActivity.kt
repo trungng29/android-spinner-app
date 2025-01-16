@@ -60,7 +60,8 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
             if (switch.isChecked ) {
                 main.setBackgroundColor(Color.WHITE)
                 switch.text = "Light"
-                spinner.setBackgroundColor(darkModeColor)
+//                spinner.setBackgroundColor(darkModeColor)
+                spinner.setBackgroundColor(ContextCompat.getColor(this, R.color.spinner_color))
                 title.setTextColor(darkModeColor)
             }
             else {

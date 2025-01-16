@@ -3,4 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="dark_mode">#0B3E5F</color>
+    <color name="spinner_color">#E6E3FA</color>
 </resources>
