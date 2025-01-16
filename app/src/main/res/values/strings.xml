@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string-array name="Movies">
+
+        <item>"Howl's moving castle"</item>
+        <item>"Spirited Away"</item>
+        <item>"The whisper of the heart"</item>
+        <item>"The cat's return"</item>
+
+    </string-array>
+</resources>
