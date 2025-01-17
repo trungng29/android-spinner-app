@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         spinner = findViewById(R.id.spinner)
         imageView = findViewById(R.id.imageView4)
         title = findViewById(R.id.textView)
-        switch = findViewById(R.id.switch1)
+//        switch = findViewById(R.id.switch1)
 
         main = findViewById(R.id.main)
 
@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = arrayAdapter
 
-        val darkModeColor = ContextCompat.getColor(this, R.color.dark_mode)
+/*        val darkModeColor = ContextCompat.getColor(this, R.color.dark_mode)
 
         switch.setOnClickListener {
             if (switch.isChecked ) {
@@ -71,6 +71,7 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
                 title.setTextColor(darkModeColor)
             }
         }
+*/
 
     }
 
